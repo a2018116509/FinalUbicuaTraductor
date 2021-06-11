@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fncConsumidor", "fncConsumidor\fncConsumidor.csproj", "{7481A74E-8BFF-4FE4-9928-ABCB947C6D9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7481A74E-8BFF-4FE4-9928-ABCB947C6D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7481A74E-8BFF-4FE4-9928-ABCB947C6D9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7481A74E-8BFF-4FE4-9928-ABCB947C6D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7481A74E-8BFF-4FE4-9928-ABCB947C6D9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0D8FA9E-BD07-454A-8776-7A6135FCE860}
+	EndGlobalSection
+EndGlobal
