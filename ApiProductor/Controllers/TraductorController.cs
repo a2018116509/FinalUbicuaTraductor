@@ -1,18 +1,19 @@
 ﻿namespace ApiProductor.Controllers
 {
     using Microsoft.AspNetCore.Mvc;
-    using Azure.Messaging.ServiceBus;
     using System;
     using System.Threading.Tasks;
+    using Azure.Messaging.ServiceBus;
     using ApiProductor.Models;
     using Newtonsoft.Json;
+
     [Route("api/[controller]")]
     [ApiController]
-    public class TranslateController : ControllerBase
+    public class TraductorController : ControllerBase
     {
         [HttpPost]
-        public async Task<bool> EnviarAsync([FromBody] Traduccion traduccion) {
-            
+        public async Task<bool> EnviarAsync([FromBody] Traduccion traduccion)
+        {
             string connectionString = "Endpoint=sb://queuetraductor.servicebus.windows.net/;SharedAccessKeyName=enviar;SharedAccessKey=2Awin9tlnHKtiP9GIKUGEg/IoM77nnHUnIiQOGcyLLY=;EntityPath=traducciones";
             string queueName = "traducciones";
             String mensaje = JsonConvert.SerializeObject(traduccion);
